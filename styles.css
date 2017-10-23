@@ -1,1 +1,226 @@
 /* Styles for the Advanced Markup assignment. */
+@import url('https://fonts.googleapis.com/css?family=Kalam|Yellowtail|Snippet');
+
+#sonnet-title {
+  background-color:#D9D4CF;
+  max-width: 1200px;
+  height: 45px;
+  margin: 10px auto;
+}
+
+h1 {
+  font-family:'Yellowtail', sans-serif;
+  color: #7C7877;
+  margin-left: 50px;
+}
+
+h3 {
+  font-family:'Yellowtail', sans-serif;
+  margin-left: 15%;
+  margin-bottom: -30px;
+
+}
+
+body {
+  background-color: #F0E5DE;
+}
+
+nav {
+  font-family: 'Kalam', sans-serif;
+  color: #7C7877;
+}
+
+nav ul li {
+  display: inline;
+  background: #7C7877;
+  padding: 3px 10px 3px 10px;
+}
+
+a {
+  color: #FFFFFF;  
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F7CFCE;
+}
+
+a:active {
+  font-weight: bold;
+}
+
+#sidebar {
+  width: 250px;
+  float: right;
+  background: #ABD0CE;
+  margin: 20px 30px 20px 20px;
+  padding: 10px 30px 10px 30px;
+  border-color: #7C7877;
+  border-style: dotted;
+  border-width: 3px;
+  
+}
+
+#sidebar h2 {
+  background-color: #FFFFFF;
+  font-family:'Yellowtail', sans-serif;
+  color: #6d6d6d;
+  text-align: center;
+}
+
+#sidebar p {
+  font-family:'Kalam', sans-serif;  
+}
+
+#content ul li {
+  font-family:'Snippet', sans-serif;
+  list-style-type: none;
+  line-height: 140%;
+  padding: 4px;
+}
+
+/*index, poem area!*/
+#content .poem {
+  padding: 20px 50px 20px 50px;
+}
+
+#social-media ul li {
+  font-family:'Kalam', sans-serif;
+  display: inline;
+}
+
+#social-media a:hover {
+  color: #000000;
+}
+
+.smalltext {
+  font-family: 'Kalam', sans-serif; 
+  background-color: #D9D4CF;
+  height: 25px;
+  padding: 5px;
+  margin: 30px 0px 25px 0px;
+}
+
+.smalltext a {
+  color: #000000;
+  text-decoration: underline #f0fffe;
+}
+
+/*about-poe section*/
+
+.bio-photo img {
+  width: 200px;
+  float: left;
+  margin: 10px 30px 10px 40px;
+  font-size: 0.9em;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #FFFFFF;
+}
+
+.bio-photo {
+  font-family: 'Snippet', sans-serif;
+}
+
+#bio-intro {
+  font-family: 'Snippet', sans-serif;
+  line-height: 180%;
+  text-indent: 40px;
+  padding-right: 30px;
+  padding-left: 40px;
+  margin-right: 50px;
+  margin-left: 0px;
+}
+
+#bio-intro a {
+  color: #8F2D56;
+}
+
+#bio-intro a:hover {
+  color: #D81159;
+}
+
+#bio-stats dt, dd{
+   font-family: 'Kalam', sans-serif;
+}
+
+th, td {
+    font-family: 'Snippet', sans-serif;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead th {
+  background-color: #8EB2B0;
+  font-family: 'Kalam', sans-serif;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #DCF5F3;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #94CACC;
+}
+
+table caption {
+  font-family: 'Snippet', sans-serif;
+  text-align:center;
+  color: #000000;
+  padding: 0px 0px 20px 0px;
+}
+
+table caption a:hover {
+  text-decoration: underline #f0fffe;
+  color: #000000;
+}
+
+table caption a {
+  font-weight: bold;
+  color: #000000;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 30px;
+    margin-left: 27%;
+}
+
+/*interp*/
+#interp p {
+    font-family: 'Snippet', sans-serif;
+    text-indent: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 30px;
+    
+}
+
+#content a:hover {
+  color: #569C97;
+}
+
+
+/*footer and bottom nav areas*/
+.bibliography a, #citation-1, #citation-2, #citation-3 {
+  list-style-type: none;
+  font-family: 'Kalam', sans-serif;
+  color: #000000;
+  max-width: 500px;
+}
+
+.bibliography a:hover {
+  text-decoration: underline #f0fffe;
+}
+
+#content h2 {
+  font-family:'Yellowtail', sans-serif;
+  text-align: center;
+}
+
+#about-poe-h2 h2 {
+  margin-left: 22%;
+}
